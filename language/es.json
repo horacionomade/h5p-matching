@@ -1,0 +1,102 @@
+{
+  "semantics": [
+    {
+      "label": "Tipo de actividad",
+      "description": "Elige el tipo de actividad",
+      "options": [
+        {
+          "label": "Unir un texto con un texto"
+        },
+        {
+          "label": "Unir una imagen con un texto"
+        }
+      ]
+    },
+    {
+      "label": "Headline",
+      "default": "Haga coincidir el texto en el lado izquierdo con el texto correspondiente en el lado derecho",
+      "description": "Descripción de la tarea"
+    },
+    {
+      "widgets": [
+        {
+          "label": "Por defecto"
+        }
+      ],
+      "label": "Pares",
+      "entity": "pares",
+      "field": {
+        "label": "Pares",
+        "fields": [
+          {
+            "label": "Imagen del lado izquierdo"
+          },
+          {
+            "label": "Texto del lado izquierdo",
+            "description": "El texto será utilizado como el \"alt\" atributo si coincide con una imagen"
+          },
+          {
+            "label": "Texto del lado derecho"
+          }
+        ]
+      }
+    },
+    {
+      "label": "Localización",
+      "fields": [
+        {
+          "label": "Texto para botón \"Evaluar\"",
+          "default": "Check"
+        },
+        {
+          "label": "Texto para el botón \"Mostrar solución\"",
+          "default": "Show solution"
+        },
+        {
+          "label": "Texto para el botón \"Repetir\"",
+          "default": "Retry"
+        },
+        {
+          "label": "Etiqueta para un par coincidente correcto",
+          "default": "Correcto!"
+        },
+        {
+          "label": "Etiqueta para un par emparejado incorrecto",
+          "default": "Incorrecto!"
+        },
+        {
+          "label": "Etiqueta para la solución correcta",
+          "default": "Solución correcta"
+        },
+        {
+          "label": "Etiqueta que indica que una opción no tiene parangón",
+          "default": "@title. Sin emparejar"
+        },
+        {
+          "label": "Etiqueta que indica que una opción coincide",
+          "default": "@title combinado con @oppositeTitle"
+        },
+        {
+          "label": "Etiqueta para el modo de solución que indica cuál sería la solución correcta",
+          "default": "@title debería haber sido emparejado con @oppositeTitle"
+        }
+      ]
+    },
+    {
+      "label": "Ajustes de comportamiento",
+      "description": "Estas opciones te permitirán controlar cómo se comporta la tarea.",
+      "fields": [
+        {
+          "label": "Activar botón \"Repetir\""
+        },
+        {
+          "label": "Activar botón \"mostrar solución\""
+        },
+        {
+          "label": "Porcentaje de pase",
+          "description": "Porcentaje de puntaje total requerido para pasar la tarea."
+        }
+      ]
+    }
+  ]
+}
